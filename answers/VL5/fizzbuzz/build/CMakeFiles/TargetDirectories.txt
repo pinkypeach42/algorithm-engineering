@@ -1,0 +1,8 @@
+/Users/dascha/Desktop/waschbär meister/OpenMP/VL5/fizzbuzz/build/CMakeFiles/fizzbuzz_tests.dir
+/Users/dascha/Desktop/waschbär meister/OpenMP/VL5/fizzbuzz/build/CMakeFiles/edit_cache.dir
+/Users/dascha/Desktop/waschbär meister/OpenMP/VL5/fizzbuzz/build/CMakeFiles/rebuild_cache.dir
+/Users/dascha/Desktop/waschbär meister/OpenMP/VL5/fizzbuzz/build/fizzbuzz/CMakeFiles/fizzbuzz.dir
+/Users/dascha/Desktop/waschbär meister/OpenMP/VL5/fizzbuzz/build/fizzbuzz/CMakeFiles/edit_cache.dir
+/Users/dascha/Desktop/waschbär meister/OpenMP/VL5/fizzbuzz/build/fizzbuzz/CMakeFiles/rebuild_cache.dir
+/Users/dascha/Desktop/waschbär meister/OpenMP/VL5/fizzbuzz/build/catch/CMakeFiles/edit_cache.dir
+/Users/dascha/Desktop/waschbär meister/OpenMP/VL5/fizzbuzz/build/catch/CMakeFiles/rebuild_cache.dir

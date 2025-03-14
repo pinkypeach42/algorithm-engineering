@@ -1,0 +1,9 @@
+/Users/dascha/Desktop/waschbär meister/OpenMP/VL5/quantpng/build/CMakeFiles/quantpng.dir
+/Users/dascha/Desktop/waschbär meister/OpenMP/VL5/quantpng/build/CMakeFiles/edit_cache.dir
+/Users/dascha/Desktop/waschbär meister/OpenMP/VL5/quantpng/build/CMakeFiles/rebuild_cache.dir
+/Users/dascha/Desktop/waschbär meister/OpenMP/VL5/quantpng/build/lodepng/CMakeFiles/lodepng.dir
+/Users/dascha/Desktop/waschbär meister/OpenMP/VL5/quantpng/build/lodepng/CMakeFiles/edit_cache.dir
+/Users/dascha/Desktop/waschbär meister/OpenMP/VL5/quantpng/build/lodepng/CMakeFiles/rebuild_cache.dir
+/Users/dascha/Desktop/waschbär meister/OpenMP/VL5/quantpng/build/quantize/CMakeFiles/quantize.dir
+/Users/dascha/Desktop/waschbär meister/OpenMP/VL5/quantpng/build/quantize/CMakeFiles/edit_cache.dir
+/Users/dascha/Desktop/waschbär meister/OpenMP/VL5/quantpng/build/quantize/CMakeFiles/rebuild_cache.dir
