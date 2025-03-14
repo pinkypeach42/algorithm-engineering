@@ -22,7 +22,7 @@ CLIArgs parseArguments(int argc, char** argv) {
             cliArgs.benchmarkMode = true; // Aktiviere Benchmark-Modus
             i += 1;
         }
-        else if (currentArg == "-G") {
+        else if (currentArg == "-g") {
             cliArgs.backgroundRemove = true; // Background removal aktivieren
             i += 1;
         }
