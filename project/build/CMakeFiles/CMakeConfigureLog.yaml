@@ -1,0 +1,1007 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/Dascha/Downloads/MinGW/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/4.0.0-rc3/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/Dascha/Downloads/MinGW/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/4.0.0-rc3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:81 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-l9jftv"
+      binary: "C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-l9jftv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-l9jftv'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe -f Makefile cmTC_d9e99/fast
+        C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d9e99.dir\\build.make CMakeFiles/cmTC_d9e99.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-l9jftv'
+        Building C object CMakeFiles/cmTC_d9e99.dir/CMakeCCompilerABI.c.obj
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_d9e99.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d9e99.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_d9e99.dir\\'
+         C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_d9e99.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccWIRfmt.s
+        GNU C17 (GCC) version 13.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"
+        ignoring nonexistent directory "/e/temp/gcc/dest/e/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"
+        ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+        ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/e/temp/gcc/dest/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include
+         C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed
+         C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 57be99a5b99999b94eef0e4814eb03c2
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d9e99.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_d9e99.dir\\'
+         C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_d9e99.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccWIRfmt.s
+        GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.41
+        COMPILER_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d9e99.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_d9e99.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_d9e99.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d9e99.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_d9e99.dir/objects.a
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_d9e99.dir/objects.a @CMakeFiles\\cmTC_d9e99.dir\\objects1.rsp
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_d9e99.dir/objects.a -Wl,--no-whole-archive -o cmTC_d9e99.exe -Wl,--out-implib,libcmTC_d9e99.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (GCC) 
+        COMPILER_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d9e99.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d9e99.'
+         C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccc9mdKA.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_d9e99.exe C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d9e99.dir/objects.a --no-whole-archive --out-implib libcmTC_d9e99.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        collect2 version 13.2.0
+        C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccc9mdKA.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_d9e99.exe C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d9e99.dir/objects.a --no-whole-archive --out-implib libcmTC_d9e99.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.41
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d9e99.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d9e99.'
+        mingw32-make[1]: Leaving directory 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-l9jftv'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:189 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+          add: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+          add: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include] ==> [C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        collapse include dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed] ==> [C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        collapse include dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include;C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed;C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:225 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-l9jftv']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe -f Makefile cmTC_d9e99/fast]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d9e99.dir\\build.make CMakeFiles/cmTC_d9e99.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-l9jftv']
+        ignore line: [Building C object CMakeFiles/cmTC_d9e99.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_d9e99.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d9e99.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_d9e99.dir\\']
+        ignore line: [ C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_d9e99.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccWIRfmt.s]
+        ignore line: [GNU C17 (GCC) version 13.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/e/temp/gcc/dest/e/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/e/temp/gcc/dest/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        ignore line: [ C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        ignore line: [ C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 57be99a5b99999b94eef0e4814eb03c2]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d9e99.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_d9e99.dir\\']
+        ignore line: [ C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_d9e99.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccWIRfmt.s]
+        ignore line: [GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.41]
+        ignore line: [COMPILER_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d9e99.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_d9e99.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_d9e99.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d9e99.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_d9e99.dir/objects.a]
+        ignore line: [C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_d9e99.dir/objects.a @CMakeFiles\\cmTC_d9e99.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_d9e99.dir/objects.a -Wl --no-whole-archive -o cmTC_d9e99.exe -Wl --out-implib libcmTC_d9e99.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d9e99.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d9e99.']
+        link line: [ C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccc9mdKA.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_d9e99.exe C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d9e99.dir/objects.a --no-whole-archive --out-implib libcmTC_d9e99.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+          arg [C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccc9mdKA.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=/e/temp/gcc/dest] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_d9e99.exe] ==> ignore
+          arg [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o] ==> obj [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_d9e99.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_d9e99.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o] ==> obj [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        ignore line: [collect2 version 13.2.0]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccc9mdKA.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_d9e99.exe C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d9e99.dir/objects.a --no-whole-archive --out-implib libcmTC_d9e99.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        linker tool for 'C': C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o] ==> [C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o]
+        collapse obj [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o] ==> [C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> [C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc] ==> [C:/Users/Dascha/Downloads/MinGW/lib/gcc]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> [C:/Users/Dascha/Downloads/MinGW/lib]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> [C:/Users/Dascha/Downloads/MinGW/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/lib/crt2.o;C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o;C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        implicit dirs: [C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0;C:/Users/Dascha/Downloads/MinGW/lib/gcc;C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/lib;C:/Users/Dascha/Downloads/MinGW/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:262 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.41
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:81 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-wvxrht"
+      binary: "C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-wvxrht"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-wvxrht'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe -f Makefile cmTC_3bfcb/fast
+        C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3bfcb.dir\\build.make CMakeFiles/cmTC_3bfcb.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-wvxrht'
+        Building CXX object CMakeFiles/cmTC_3bfcb.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_3bfcb.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3bfcb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_3bfcb.dir\\'
+         C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_3bfcb.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccYrZMV2.s
+        GNU C++17 (GCC) version 13.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"
+        ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"
+        ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"
+        ignoring nonexistent directory "/e/temp/gcc/dest/e/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"
+        ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+        ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/e/temp/gcc/dest/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0
+         C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32
+         C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward
+         C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include
+         C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed
+         C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: aa8d155dea9d0b877613f1961dc4601a
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3bfcb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_3bfcb.dir\\'
+         C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_3bfcb.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccYrZMV2.s
+        GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.41
+        COMPILER_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3bfcb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_3bfcb.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_3bfcb.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3bfcb.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_3bfcb.dir/objects.a
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_3bfcb.dir/objects.a @CMakeFiles\\cmTC_3bfcb.dir\\objects1.rsp
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_3bfcb.dir/objects.a -Wl,--no-whole-archive -o cmTC_3bfcb.exe -Wl,--out-implib,libcmTC_3bfcb.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (GCC) 
+        COMPILER_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3bfcb.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3bfcb.'
+         C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Dascha\\AppData\\Local\\Temp\\cc8qUgEa.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_3bfcb.exe C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_3bfcb.dir/objects.a --no-whole-archive --out-implib libcmTC_3bfcb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        collect2 version 13.2.0
+        C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Dascha\\AppData\\Local\\Temp\\cc8qUgEa.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_3bfcb.exe C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_3bfcb.dir/objects.a --no-whole-archive --out-implib libcmTC_3bfcb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.41
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3bfcb.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3bfcb.'
+        mingw32-make[1]: Leaving directory 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-wvxrht'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:189 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0]
+          add: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32]
+          add: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward]
+          add: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+          add: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+          add: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0] ==> [C:/Users/Dascha/Downloads/MinGW/include/c++/13.2.0]
+        collapse include dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32] ==> [C:/Users/Dascha/Downloads/MinGW/include/c++/13.2.0/x86_64-w64-mingw32]
+        collapse include dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward] ==> [C:/Users/Dascha/Downloads/MinGW/include/c++/13.2.0/backward]
+        collapse include dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include] ==> [C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        collapse include dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed] ==> [C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        collapse include dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Users/Dascha/Downloads/MinGW/include/c++/13.2.0;C:/Users/Dascha/Downloads/MinGW/include/c++/13.2.0/x86_64-w64-mingw32;C:/Users/Dascha/Downloads/MinGW/include/c++/13.2.0/backward;C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include;C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed;C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:225 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-wvxrht']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe -f Makefile cmTC_3bfcb/fast]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3bfcb.dir\\build.make CMakeFiles/cmTC_3bfcb.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-wvxrht']
+        ignore line: [Building CXX object CMakeFiles/cmTC_3bfcb.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_3bfcb.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3bfcb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_3bfcb.dir\\']
+        ignore line: [ C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_3bfcb.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccYrZMV2.s]
+        ignore line: [GNU C++17 (GCC) version 13.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"]
+        ignore line: [ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"]
+        ignore line: [ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/e/temp/gcc/dest/e/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/Dascha/Downloads/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/e/temp/gcc/dest/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0]
+        ignore line: [ C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32]
+        ignore line: [ C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward]
+        ignore line: [ C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        ignore line: [ C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        ignore line: [ C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: aa8d155dea9d0b877613f1961dc4601a]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3bfcb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_3bfcb.dir\\']
+        ignore line: [ C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_3bfcb.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccYrZMV2.s]
+        ignore line: [GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.41]
+        ignore line: [COMPILER_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3bfcb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_3bfcb.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_3bfcb.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3bfcb.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_3bfcb.dir/objects.a]
+        ignore line: [C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_3bfcb.dir/objects.a @CMakeFiles\\cmTC_3bfcb.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\g++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_3bfcb.dir/objects.a -Wl --no-whole-archive -o cmTC_3bfcb.exe -Wl --out-implib libcmTC_3bfcb.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3bfcb.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3bfcb.']
+        link line: [ C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Dascha\\AppData\\Local\\Temp\\cc8qUgEa.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_3bfcb.exe C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_3bfcb.dir/objects.a --no-whole-archive --out-implib libcmTC_3bfcb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+          arg [C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Dascha\\AppData\\Local\\Temp\\cc8qUgEa.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=/e/temp/gcc/dest] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_3bfcb.exe] ==> ignore
+          arg [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o] ==> obj [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_3bfcb.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_3bfcb.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o] ==> obj [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        ignore line: [collect2 version 13.2.0]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Dascha\\AppData\\Local\\Temp\\cc8qUgEa.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_3bfcb.exe C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_3bfcb.dir/objects.a --no-whole-archive --out-implib libcmTC_3bfcb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        linker tool for 'CXX': C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o] ==> [C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o]
+        collapse obj [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o] ==> [C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> [C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc] ==> [C:/Users/Dascha/Downloads/MinGW/lib/gcc]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> [C:/Users/Dascha/Downloads/MinGW/lib]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> [C:/Users/Dascha/Downloads/MinGW/lib]
+        implicit libs: [stdc++;mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/lib/crt2.o;C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o;C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        implicit dirs: [C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0;C:/Users/Dascha/Downloads/MinGW/lib/gcc;C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/lib;C:/Users/Dascha/Downloads/MinGW/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:262 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.41
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:250 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:24 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-3q48li"
+      binary: "C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-3q48li"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-3q48li'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe -f Makefile cmTC_8bfb7/fast
+        C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8bfb7.dir\\build.make CMakeFiles/cmTC_8bfb7.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-3q48li'
+        Building C object CMakeFiles/cmTC_8bfb7.dir/OpenMPTryFlag.c.obj
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\gcc.exe   -fopenmp -o CMakeFiles\\cmTC_8bfb7.dir\\OpenMPTryFlag.c.obj -c C:\\Users\\Dascha\\Desktop\\ImageEnhancer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q48li\\OpenMPTryFlag.c
+        Linking C executable cmTC_8bfb7.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_8bfb7.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_8bfb7.dir/objects.a
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_8bfb7.dir/objects.a @CMakeFiles\\cmTC_8bfb7.dir\\objects1.rsp
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\gcc.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\\cmTC_8bfb7.dir/objects.a -Wl,--no-whole-archive -o cmTC_8bfb7.exe -Wl,--out-implib,libcmTC_8bfb7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_8bfb7.dir\\linkLibs.rsp
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (GCC) 
+        COMPILER_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        Reading specs from C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_8bfb7.exe' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_8bfb7.'
+         C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccHmUUwB.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_8bfb7.exe C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. @C:\\Users\\Dascha\\AppData\\Local\\Temp\\cca9BUQ2 -lgomp -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_8bfb7.exe' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_8bfb7.'
+        mingw32-make[1]: Leaving directory 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-3q48li'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:294 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:24 (find_package)"
+    message: |
+      Parsed C OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-3q48li']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe -f Makefile cmTC_8bfb7/fast]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8bfb7.dir\\build.make CMakeFiles/cmTC_8bfb7.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-3q48li']
+        ignore line: [Building C object CMakeFiles/cmTC_8bfb7.dir/OpenMPTryFlag.c.obj]
+        ignore line: [C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\gcc.exe   -fopenmp -o CMakeFiles\\cmTC_8bfb7.dir\\OpenMPTryFlag.c.obj -c C:\\Users\\Dascha\\Desktop\\ImageEnhancer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q48li\\OpenMPTryFlag.c]
+        ignore line: [Linking C executable cmTC_8bfb7.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_8bfb7.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_8bfb7.dir/objects.a]
+        ignore line: [C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_8bfb7.dir/objects.a @CMakeFiles\\cmTC_8bfb7.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\gcc.exe  -fopenmp -v -Wl --whole-archive CMakeFiles\\cmTC_8bfb7.dir/objects.a -Wl --no-whole-archive -o cmTC_8bfb7.exe -Wl --out-implib libcmTC_8bfb7.dll.a -Wl --major-image-version 0 --minor-image-version 0 @CMakeFiles\\cmTC_8bfb7.dir\\linkLibs.rsp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [Reading specs from C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_8bfb7.exe' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_8bfb7.']
+        link line: [ C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccHmUUwB.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_8bfb7.exe C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. @C:\\Users\\Dascha\\AppData\\Local\\Temp\\cca9BUQ2 -lgomp -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+          arg [C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccHmUUwB.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwthrd] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwthrd] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=/e/temp/gcc/dest] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_8bfb7.exe] ==> ignore
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..]
+          arg [@C:\\Users\\Dascha\\AppData\\Local\\Temp\\cca9BUQ2] ==> ignore
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lmingwthrd] ==> lib [mingwthrd]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingwthrd] ==> lib [mingwthrd]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> [C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc] ==> [C:/Users/Dascha/Downloads/MinGW/lib/gcc]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> [C:/Users/Dascha/Downloads/MinGW/lib]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> [C:/Users/Dascha/Downloads/MinGW/lib]
+        implicit libs: [gomp;mingwthrd;mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingwthrd;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: []
+        implicit dirs: [C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0;C:/Users/Dascha/Downloads/MinGW/lib/gcc;C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/lib;C:/Users/Dascha/Downloads/MinGW/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:250 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:24 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-x858f5"
+      binary: "C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-x858f5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-x858f5'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe -f Makefile cmTC_b3863/fast
+        C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b3863.dir\\build.make CMakeFiles/cmTC_b3863.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-x858f5'
+        Building CXX object CMakeFiles/cmTC_b3863.dir/OpenMPTryFlag.cpp.obj
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\g++.exe   -fopenmp -std=c++17 -o CMakeFiles\\cmTC_b3863.dir\\OpenMPTryFlag.cpp.obj -c C:\\Users\\Dascha\\Desktop\\ImageEnhancer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x858f5\\OpenMPTryFlag.cpp
+        Linking CXX executable cmTC_b3863.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b3863.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b3863.dir/objects.a
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_b3863.dir/objects.a @CMakeFiles\\cmTC_b3863.dir\\objects1.rsp
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\g++.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\\cmTC_b3863.dir/objects.a -Wl,--no-whole-archive -o cmTC_b3863.exe -Wl,--out-implib,libcmTC_b3863.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_b3863.dir\\linkLibs.rsp
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (GCC) 
+        COMPILER_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        Reading specs from C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_b3863.exe' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_b3863.'
+         C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccj8swL4.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_b3863.exe C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. @C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccSpRbkZ -lgomp -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_b3863.exe' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_b3863.'
+        mingw32-make[1]: Leaving directory 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-x858f5'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:294 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:24 (find_package)"
+    message: |
+      Parsed CXX OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-x858f5']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe -f Makefile cmTC_b3863/fast]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b3863.dir\\build.make CMakeFiles/cmTC_b3863.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-x858f5']
+        ignore line: [Building CXX object CMakeFiles/cmTC_b3863.dir/OpenMPTryFlag.cpp.obj]
+        ignore line: [C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\g++.exe   -fopenmp -std=c++17 -o CMakeFiles\\cmTC_b3863.dir\\OpenMPTryFlag.cpp.obj -c C:\\Users\\Dascha\\Desktop\\ImageEnhancer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x858f5\\OpenMPTryFlag.cpp]
+        ignore line: [Linking CXX executable cmTC_b3863.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b3863.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b3863.dir/objects.a]
+        ignore line: [C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_b3863.dir/objects.a @CMakeFiles\\cmTC_b3863.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\g++.exe  -fopenmp -v -Wl --whole-archive CMakeFiles\\cmTC_b3863.dir/objects.a -Wl --no-whole-archive -o cmTC_b3863.exe -Wl --out-implib libcmTC_b3863.dll.a -Wl --major-image-version 0 --minor-image-version 0 @CMakeFiles\\cmTC_b3863.dir\\linkLibs.rsp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [Reading specs from C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_b3863.exe' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_b3863.']
+        link line: [ C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccj8swL4.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_b3863.exe C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. @C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccSpRbkZ -lgomp -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+          arg [C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/Users/Dascha/Downloads/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccj8swL4.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwthrd] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwthrd] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=/e/temp/gcc/dest] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_b3863.exe] ==> ignore
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..]
+          arg [@C:\\Users\\Dascha\\AppData\\Local\\Temp\\ccSpRbkZ] ==> ignore
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lmingwthrd] ==> lib [mingwthrd]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingwthrd] ==> lib [mingwthrd]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> [C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc] ==> [C:/Users/Dascha/Downloads/MinGW/lib/gcc]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> [C:/Users/Dascha/Downloads/MinGW/lib]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Users/Dascha/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> [C:/Users/Dascha/Downloads/MinGW/lib]
+        implicit libs: [gomp;mingwthrd;mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingwthrd;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: []
+        implicit dirs: [C:/Users/Dascha/Downloads/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0;C:/Users/Dascha/Downloads/MinGW/lib/gcc;C:/Users/Dascha/Downloads/MinGW/x86_64-w64-mingw32/lib;C:/Users/Dascha/Downloads/MinGW/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:491 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:631 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:24 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-y602rg"
+      binary: "C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-y602rg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-y602rg'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe -f Makefile cmTC_b0fb1/fast
+        C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b0fb1.dir\\build.make CMakeFiles/cmTC_b0fb1.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-y602rg'
+        Building C object CMakeFiles/cmTC_b0fb1.dir/OpenMPCheckVersion.c.obj
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\gcc.exe   -fopenmp -o CMakeFiles\\cmTC_b0fb1.dir\\OpenMPCheckVersion.c.obj -c C:\\Users\\Dascha\\Desktop\\ImageEnhancer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y602rg\\OpenMPCheckVersion.c
+        Linking C executable cmTC_b0fb1.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b0fb1.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b0fb1.dir/objects.a
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_b0fb1.dir/objects.a @CMakeFiles\\cmTC_b0fb1.dir\\objects1.rsp
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\gcc.exe  -fopenmp -Wl,--whole-archive CMakeFiles\\cmTC_b0fb1.dir/objects.a -Wl,--no-whole-archive -o cmTC_b0fb1.exe -Wl,--out-implib,libcmTC_b0fb1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_b0fb1.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-y602rg'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:491 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:631 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:24 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-dtxbnb"
+      binary: "C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-dtxbnb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-dtxbnb'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe -f Makefile cmTC_647a7/fast
+        C:/Users/Dascha/Downloads/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_647a7.dir\\build.make CMakeFiles/cmTC_647a7.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-dtxbnb'
+        Building CXX object CMakeFiles/cmTC_647a7.dir/OpenMPCheckVersion.cpp.obj
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\g++.exe   -fopenmp -std=c++17 -o CMakeFiles\\cmTC_647a7.dir\\OpenMPCheckVersion.cpp.obj -c C:\\Users\\Dascha\\Desktop\\ImageEnhancer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dtxbnb\\OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_647a7.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_647a7.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_647a7.dir/objects.a
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_647a7.dir/objects.a @CMakeFiles\\cmTC_647a7.dir\\objects1.rsp
+        C:\\Users\\Dascha\\Downloads\\MinGW\\bin\\g++.exe  -fopenmp -Wl,--whole-archive CMakeFiles\\cmTC_647a7.dir/objects.a -Wl,--no-whole-archive -o cmTC_647a7.exe -Wl,--out-implib,libcmTC_647a7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_647a7.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/CMakeScratch/TryCompile-dtxbnb'
+        
+      exitCode: 0
+...

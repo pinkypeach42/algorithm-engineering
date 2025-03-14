@@ -1,0 +1,3 @@
+C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/ImageEnhancer.dir
+C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/edit_cache.dir
+C:/Users/Dascha/Desktop/ImageEnhancer/build/CMakeFiles/rebuild_cache.dir
